@@ -27,20 +27,6 @@ body {
     color: black;
 }
 
-.nav-button-youtube:hover {
-    background: rgb(255, 0, 0);
-    color: white;
-}
-
-.nav-button-linkedin:hover {
-    background: rgb(11, 103, 194);
-    color: white;
-}
-
-.nav-button-backlog:hover {
-    background: rgb(52, 168, 83);
-    color: white;
-}
 
 #main {
     top: 50%;
