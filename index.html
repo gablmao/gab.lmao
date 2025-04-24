@@ -41,19 +41,14 @@
   });
 </script>
 <script>
-setInterval(biColor, 1000);
-function biColor(){
-  const bi = document.getElementById('bi');
-  bi.style.color = rotateBiColor();
-  }; 
+const colors = [rgb(207, 2, 108), rgb(150, 77, 145), rgb(0, 54, 163)];
+let index = 0;
+const bi = document.getElementById('bi');
 
-function rotateBiColor(){
-  var color1 = rgb(207, 2, 108);
-  var color2 = rgb(150, 77, 145);
-  var color3 = rgb(0, 54, 163)
-
-  
-};
+setInterval(() => {
+      bi.style.color = colors[index];
+      index = (index + 1) % colors.length;
+    }, 1000); // every 1 second
 </script>
 
 </html>
