@@ -28,6 +28,51 @@ body {
     color: black;
 }
 
+.nav-button-youtube {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-button-youtube:hover {
+    background: rgb(255, 0, 0); 
+    color: white;
+}
+
+.nav-button-linkedin {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-button-linkedin:hover {
+    background: rgb(11, 103, 194); 
+    color: white;
+}
+
+.nav-button-backlog {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-button-backlog:hover {
+    background: rgb(52, 168, 83); 
+    color: white;
+}
+
 #main {
     top: 50%;
 	left: 50%;
