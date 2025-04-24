@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-  <title> gablmao </title>
+  <title id="bi"> gablmao </title>
 </head>
 
 <body>
@@ -39,6 +39,21 @@
     e.preventDefault();
     alert('I`ll think about it.');
   });
+</script>
+<script>
+setInterval(biColor, 1000);
+function biColor(){
+  const bi = document.getElementById('bi');
+  bi.style.color = rotateBiColor();
+  }; 
+
+function rotateBiColor(){
+  var color1 = rgb(207, 2, 108);
+  var color2 = rgb(150, 77, 145);
+  var color3 = rgb(0, 54, 163)
+
+  
+};
 </script>
 
 </html>
