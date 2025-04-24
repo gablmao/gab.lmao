@@ -22,11 +22,11 @@ body {
     color: white;
     text-decoration: none;
 }
+
 .nav-button:hover {
     background: rgb(255, 255, 255);
     color: black;
 }
-
 
 #main {
     top: 50%;
