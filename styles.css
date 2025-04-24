@@ -27,17 +27,17 @@ body {
     color: black;
 }
 
-#youtube:hover {
+.nav-button-youtube:hover {
     background: rgb(255, 0, 0);
     color: white;
 }
 
-#linkedin:hover {
+.nav-button-linkedin:hover {
     background: rgb(11, 103, 194);
     color: white;
 }
 
-#backlog:hover {
+.nav-button-backlog:hover {
     background: rgb(52, 168, 83);
     color: white;
 }
