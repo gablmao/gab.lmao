@@ -5,24 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="">
+  <link rel="icon" type="image/x-icon" href="/img/gab.gif">
   <title> gablmao </title>
 </head>
 
 <body>
-  <header id="nav">
-    <a class="nav-button" href="">about</a>
-    <a class="nav-button" href="">blog?</a>
-    <a class="nav-button" href="">github</a>
-    <a class="nav-button" href="">linkedin</a>
-  </header>
-  <main>
-    <h1> you can call me gab </h1>
-  </main>
+  <div id="header">
+    <a class="nav-button" id="blog" href="">blog?</a>
+    <a class="nav-button" href="https://www.youtube.com/@gablmao">youtube</a>
+    <a class="nav-button" href="https://github.com/gablmao">github</a>
+    <a class="nav-button" href="https://www.linkedin.com/in/gabriel-mano">linkedin</a>
+    <a class="nav-button" href="https://docs.google.com/spreadsheets/d/1Xnlk01rJg2RyBigJ8_AuDSxvIvy1cnsQ/edit?usp=sharing&ouid=102499500845892805176&rtpof=true&sd=true">game backlog</a>
+  </div>
 
-  <footer id="footer">
+  <div id="title">
+    <h1>gab, gablmao</h1>
+    <p>Gabriel Felip Mano Lasig</p>
+  </div>
+
+  <div id="main">
+    <p>i don't know what to do with this other than show off the fact I can (kinda) create a website.</p>
+    <p>up-n-coming game developer? or just stick with web dev.</p>
+  </div>
+
+  <div id="footer">
     gablmao 2025
-  </footer>
+  </div>
 </body>
+
+<script>
+  const blog = document.getElementById('blog');
+  blog.addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('I`ll think about it.');
+  });
+</script>
 
 </html>
